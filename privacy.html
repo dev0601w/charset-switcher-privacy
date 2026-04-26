@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charset Switcher - Privacy Policy</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #333;
+    }
+    h1 { color: #1a73e8; margin-bottom: 0.3em; }
+    h2 { color: #333; margin-top: 30px; }
+    p { margin: 10px 0; }
+    ul { padding-left: 20px; }
+    .last-updated { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    .lang-switch {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .lang-btn {
+      padding: 8px 16px;
+      border: 1px solid #ddd;
+      background: #f5f5f5;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+    .lang-btn:hover {
+      background: #e8e8e8;
+    }
+    .lang-btn.active {
+      background: #1a73e8;
+      color: white;
+      border-color: #1a73e8;
+    }
+    .content-zh, .content-en {
+      display: none;
+    }
+    .content-zh.active, .content-en.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-switch">
+    <button class="lang-btn active" data-lang="en">English</button>
+    <button class="lang-btn" data-lang="zh">中文</button>
+  </div>
+
+  <!-- English Version (Default) -->
+  <div class="content-en active">
+    <h1>Charset Switcher Privacy Policy</h1>
+    <p class="last-updated">Last Updated: 2026-04-26</p>
+
+    <h2>Overview</h2>
+    <p>Charset Switcher (hereinafter "this extension") is a Chrome browser extension for switching web page character encoding. This privacy policy explains how this extension handles user data.</p>
+
+    <h2>Data Collection</h2>
+    <p><strong>This extension does not collect any user data.</strong></p>
+    <ul>
+      <li>No personal identification information collected</li>
+      <li>No browsing history collected</li>
+      <li>No web page content collected</li>
+      <li>No cookies or other tracking information collected</li>
+      <li>No data shared with any third parties</li>
+    </ul>
+
+    <h2>Local Data Storage</h2>
+    <p>This extension uses Chrome Storage API (chrome.storage) to save the following settings locally in the user's browser:</p>
+    <ul>
+      <li><strong>Language preference</strong> - User's selected interface language</li>
+      <li><strong>Encoding list configuration</strong> - User's custom encoding options to display</li>
+      <li><strong>Site encoding preferences</strong> - User's encoding preferences for specific sites (optional feature)</li>
+      <li><strong>Recently used encodings</strong> - Quick access to recently used encodings</li>
+    </ul>
+    <p>All the above data is stored locally in the user's browser and <strong>is not uploaded or transmitted to any server</strong>.</p>
+
+    <h2>Data Sharing</h2>
+    <p>This extension does not share any data with any third parties. All data is stored only in the user's local browser.</p>
+
+    <h2>Permissions Explained</h2>
+    <p>This extension requests the following permissions and their purposes:</p>
+    <ul>
+      <li><strong>contextMenus</strong> - Display encoding switching options in the context menu</li>
+      <li><strong>storage</strong> - Save user settings locally</li>
+      <li><strong>activeTab</strong> - Get current tab information to switch encoding</li>
+      <li><strong>scripting</strong> - Inject scripts into pages to change encoding</li>
+      <li><strong>tabs</strong> - Access tab information</li>
+      <li><strong>notifications</strong> - Display operation notifications</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+    <p>This extension does not use any third-party analytics, advertising, or tracking services.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If there are any changes to this privacy policy, we will update the "Last Updated" date on this page.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have any questions about this privacy policy, please contact us through the Chrome Web Store extension page.</p>
+  </div>
+
+  <!-- Chinese Version -->
+  <div class="content-zh">
+    <h1>Charset Switcher 隐私政策</h1>
+    <p class="last-updated">最后更新日期: 2026-04-26</p>
+
+    <h2>概述</h2>
+    <p>Charset Switcher（以下简称"本扩展"）是一款 Chrome 浏览器扩展，用于切换网页字符编码。本隐私政策说明本扩展如何处理用户数据。</p>
+
+    <h2>数据收集</h2>
+    <p><strong>本扩展不收集任何用户数据。</strong></p>
+    <ul>
+      <li>不收集个人身份信息</li>
+      <li>不收集浏览历史</li>
+      <li>不收集网页内容</li>
+      <li>不收集 Cookie 或其他跟踪信息</li>
+      <li>不与任何第三方共享数据</li>
+    </ul>
+
+    <h2>本地数据存储</h2>
+    <p>本扩展使用 Chrome 存储 API（chrome.storage）在用户本地浏览器中保存以下设置：</p>
+    <ul>
+      <li><strong>语言偏好设置</strong> - 用户选择的界面语言</li>
+      <li><strong>编码列表配置</strong> - 用户自定义显示的编码选项</li>
+      <li><strong>网站编码偏好</strong> - 用户为特定网站设置的编码偏好（可选功能）</li>
+      <li><strong>最近使用编码</strong> - 快速访问最近使用的编码</li>
+    </ul>
+    <p>以上所有数据均存储在用户本地浏览器中，<strong>不会上传或传输到任何服务器</strong>。</p>
+
+    <h2>数据共享</h2>
+    <p>本扩展不与任何第三方共享任何数据。所有数据仅存储在用户本地浏览器中。</p>
+
+    <h2>权限说明</h2>
+    <p>本扩展请求以下权限及其用途：</p>
+    <ul>
+      <li><strong>contextMenus</strong> - 在右键菜单中显示编码切换选项</li>
+      <li><strong>storage</strong> - 在本地保存用户设置</li>
+      <li><strong>activeTab</strong> - 获取当前标签页信息以切换编码</li>
+      <li><strong>scripting</strong> - 在页面中注入脚本以更改编码</li>
+      <li><strong>tabs</strong> - 访问标签页信息</li>
+      <li><strong>notifications</strong> - 显示操作通知</li>
+    </ul>
+
+    <h2>第三方服务</h2>
+    <p>本扩展不使用任何第三方分析、广告或跟踪服务。</p>
+
+    <h2>变更通知</h2>
+    <p>如本隐私政策有任何变更，我们将在此页面上更新"最后更新日期"。</p>
+
+    <h2>联系我们</h2>
+    <p>如果您对本隐私政策有任何疑问，请通过 Chrome Web Store 扩展页面联系我们。</p>
+  </div>
+
+  <script>
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+
+        // Update button states
+        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // Update content visibility
+        document.querySelector('.content-en').classList.toggle('active', lang === 'en');
+        document.querySelector('.content-zh').classList.toggle('active', lang === 'zh');
+
+        // Update html lang attribute
+        document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+      });
+    });
+  </script>
+</body>
+</html>
